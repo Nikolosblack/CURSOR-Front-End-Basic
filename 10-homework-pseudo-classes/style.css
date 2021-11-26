@@ -1,0 +1,107 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+.resize {
+   
+   width: 100%;
+  
+   padding: 30px 0;
+   
+}
+
+main {
+   background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg);
+   background-size: contain;
+   height: 100vh;
+}
+
+
+
+
+.flex {
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.item {
+   width: 50px;
+   height: 50px;
+   background-color: grey;
+   margin: 5px;
+}
+
+
+
+.flex:last-child .item {
+   background-color: blue;
+}
+
+.flex .item:nth-child(3) {
+   background-color: red;
+}
+
+.button-wrapper {
+   display: flex;
+   justify-content: center;
+   padding: 20px 0;
+   margin: 30px 0;
+   width: 100%;
+  
+  
+   background-image: url(https://i.pinimg.com/originals/48/d2/de/48d2de27116e25e50748e349adef81e2.jpg);
+}
+
+.main-button {
+   font-family: 'Helvetica Neue', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   max-width: 100px;
+   width: 100%;
+   font-size: 12px;
+   background: #44D3A8;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   color: #FFFFFF;
+   border-radius: 12px;  
+   border: none; 
+   cursor: pointer;
+   padding: 12px;
+}
+
+.main-button:hover {
+   background-color: #FFFFFF;
+   color: #44D3A8;
+   opacity: 1.0;
+   transform: scale(1.0);
+}
+.button-wrapper > .main-button {
+   position: relative;
+}
+
+.button-wrapper button:before, 
+.button-wrapper button:after {
+   content: "";
+   width: 200px;
+   height: 8px;
+  
+   position: absolute;
+   border-top: 2px solid #C4C4C4;
+   border-bottom: 2px solid #C4C4C4;
+}
+
+.button-wrapper button:before {  
+   left: -46px;
+   top: 50%;
+   transform: translate(-100%, -50%);
+}
+
+.button-wrapper button:after {
+   right: -46px;
+   top: 50%;
+   transform: translate(100%, -50%);
+}
+
