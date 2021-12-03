@@ -3,21 +3,25 @@
    margin: 0;
 }
 
-.homework {
+.header {
+   padding: 10px;
+}
+
+.title {
    text-align: center;
-   margin: 10px 10px 0 10px;
    background-color: black;
    color: white;
-   padding: 5px;
+   padding: 10px 0;
    min-width: 150px;
 }
 
-h2 {
+.subtitle {
    text-align: center;
    border: 2px solid;
    border-color: red yellow green hsla(60, 90%, 50%, .8);
-   margin: 10px 10px 20px 10px;
+   padding: 10px;
 }
+
 .main {
    display: flex;
    flex-wrap: wrap;
@@ -27,35 +31,45 @@ h2 {
    line-height: 1.5;
 }
 
-.list {
+section {
    margin: 10px;
    padding: 10px 10px 20px 10px;
    width: 700px;
    background-color: black;
 }
 
-.paragraph {
+.desc{
    text-align: justify;
    border: solid 1px white;
    padding: 10px;
-   margin: 10px 10px 0 10px;
 }
 
-.emoji {
+.desc b {
+   color: purple;
+}
+
+.desc-center {
    text-align: center;
    margin: 10px;
    border: 1px solid;
    border-image-source : linear-gradient(to bottom, #f64f59, #c471ed, #12c2e9);  
    border-image-slice : 1;
+   animation: color-change 3s infinite;
 }
 
-li {
+@keyframes color-change {
+   0% { color: red; }
+   50% { color: blue; }
+   100% { color: red; }
+ }
+
+.list_item {
    margin: 10px;
    text-align: justify;
    list-style-type: none;
 }
 
-.color {
+.list_item-purple {
    color: purple;
    font-size: 18px;
 }
