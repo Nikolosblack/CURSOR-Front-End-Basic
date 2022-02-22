@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    max-width: 1496px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+a {
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+}

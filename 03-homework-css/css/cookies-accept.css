@@ -1,0 +1,114 @@
+.white-cookie__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.white-cookie-border {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 20px;
+    padding: 32px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.white-cookie-border span {
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295A;
+    text-align: center;
+}
+
+.white-cookie-border p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295A;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.white-cookie-border a {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #4A7EFF;
+    border-radius: 43px;
+    padding: 10px 32px;
+    text-decoration: none;transition: all .3s ease;
+}
+
+.white-cookie-border a:hover {
+    opacity: .7;
+}
+
+.cookie-privacy {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
+    border-radius: 4px;
+    padding: 16px;
+    height: fit-content;
+    max-width: 320px;
+}
+
+.cookie-privacy p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    font-family: 'SF Pro Text', sans-serif;
+    margin-bottom: 12px;
+}
+
+.privacy-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.privacy-btn-wrapper .btn-privacy {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #6666FF;
+    transition: all .3s ease;
+}
+
+.privacy-btn-wrapper .btn-privacy:hover {
+    text-decoration: underline;
+}
+
+.privacy-btn-wrapper .btn-privacy-bg {
+    font-family: 'SF Pro Text', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    background: #6666FF;
+    border-radius: 4px;
+    padding: 8px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.privacy-btn-wrapper .btn-privacy-bg:hover {
+    opacity: .8;
+}
+
+@media(max-width:810px) {
+    .white-cookie-border {
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}
